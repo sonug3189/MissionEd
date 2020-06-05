@@ -5,15 +5,16 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class activity_chapter extends AppCompatActivity {
     private static final String TAG = "activity_chapter";
-    private Button btnAct1;
-    private Button btnAct2;
-    private Button btnAct3;
+    private ImageView btnAct1;
+    private ImageView btnAct2;
+    private ImageView btnAct3;
 
     private int chapIndex;
     private String subject;

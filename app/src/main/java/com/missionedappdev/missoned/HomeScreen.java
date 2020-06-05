@@ -25,12 +25,17 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.storage.StorageReference;
 import com.missionedappdev.missoned.ui.gallery.quizoesFragment;
+
+import org.w3c.dom.Text;
 
 public class HomeScreen extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -39,13 +44,17 @@ public class HomeScreen extends AppCompatActivity implements NavigationView.OnNa
     private AppBarConfiguration mAppBarConfiguration;
     public Student student;
     public String uname,email,id,uname1;
-    public FirebaseAuth firebaseAuth;
     public TextView tvUsername,tvEmail,displayUsername;
 
     public DrawerLayout drawer;
     public Toolbar toolbar;
     public NavController navController;
     public NavigationView navigationView;
+
+    private FirebaseAuth firebaseAuth;
+    private FirebaseFirestore db=FirebaseFirestore.getInstance();
+    private StorageReference storageReference;
+    private FirebaseUser currentUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,47 +96,18 @@ public class HomeScreen extends AppCompatActivity implements NavigationView.OnNa
 
         navController = Navigation.findNavController(this, R.id.nav_host_fragment);
 
-        View headerView=navigationView.getHeaderView(0);
+        uname=getIntent().getStringExtra("USERNAME");
+        email=getIntent().getStringExtra("EMAIL");
 
-         tvUsername=(TextView) headerView.findViewById(R.id.tvUsername);
-         tvEmail=(TextView) headerView.findViewById(R.id.tvEmail);
-         displayUsername=findViewById(R.id.displayUsername);
-        email=getIntent().getStringExtra("Email");
-        firebaseAuth = FirebaseAuth.getInstance();
+        displayUsername=(TextView)findViewById(R.id.displayUsername);
+        displayUsername.setText(uname);
 
-        id=getIntent().getStringExtra("id");
-        final FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
-        DatabaseReference databaseReference = firebaseDatabase.getReference("student").child(id);
-        databaseReference.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                student = dataSnapshot.getValue(Student.class);
+        //tvEmail=(TextView)findViewById(R.id.tvEmail);
+        //tvEmail.setText(email);
 
-                uname = student.getName();
-                if(uname!=null) {
-                    tvUsername.setText(uname);
-                    displayUsername.setText(uname);
-                }
-            }
+        firebaseAuth=FirebaseAuth.getInstance();
+        currentUser = firebaseAuth.getCurrentUser();
 
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-                Toast.makeText(HomeScreen.this, " data base error " , Toast.LENGTH_SHORT).show();
-            }
-        });
-
-
-        tvEmail.setText(email);
-
-        if(uname!=null) {
-            tvUsername.setText(uname);
-            displayUsername.setText(uname);
-        }
-
-
-        /*
-        * Buttons for navigation to various activities : change them as needed in content_main.xml
-        * */
 
         btnAct1=findViewById(R.id.physics); btnAct2=findViewById(R.id.chemistry);
         btnAct3=findViewById(R.id.maths); btnAct4=findViewById(R.id.biology);
@@ -167,6 +147,11 @@ public class HomeScreen extends AppCompatActivity implements NavigationView.OnNa
     }
 
     @Override
+    protected void onStart() {
+        super.onStart();
+    }
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
@@ -177,10 +162,13 @@ public class HomeScreen extends AppCompatActivity implements NavigationView.OnNa
         int id=item.getItemId();
         if(id==R.id.action_settings)
         {
-            firebaseAuth.signOut();
-            Intent intent = new Intent(HomeScreen.this,LoginActivity.class);
-            startActivity(intent);
-            finish();
+            if(currentUser!=null && firebaseAuth!=null) {
+                firebaseAuth.signOut();
+                startActivity(new Intent(HomeScreen.this, LoginActivity.class));
+                finish();
+            } else {
+                Toast.makeText(this, "You are in Debugging mode !", Toast.LENGTH_SHORT).show();
+            }
             return true;
         }
         return  true;

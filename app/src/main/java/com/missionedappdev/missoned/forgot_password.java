@@ -18,6 +18,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class forgot_password extends AppCompatActivity {
     private EditText resetemail;
     private Button resetbtn;
+    private FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +27,7 @@ public class forgot_password extends AppCompatActivity {
 
         resetbtn = findViewById(R.id.resetbtn);
         resetemail = findViewById(R.id.resetEmail);
+        mAuth = FirebaseAuth.getInstance();
         resetbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -35,6 +37,7 @@ public class forgot_password extends AppCompatActivity {
                 }
                 else
                 {
+
                     FirebaseAuth.getInstance().sendPasswordResetEmail(email)
                             .addOnCompleteListener(new OnCompleteListener<Void>() {
                                 @Override
@@ -46,7 +49,7 @@ public class forgot_password extends AppCompatActivity {
                                     }
                                     else
                                     {
-                                        Toast.makeText(forgot_password.this,"Network error please try again",Toast.LENGTH_LONG).show();
+                                        Toast.makeText(forgot_password.this,"Email does not exist",Toast.LENGTH_LONG).show();
                                         resetemail.setText("");
                                         FirebaseAuth.getInstance().signOut();
                                     }

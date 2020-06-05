@@ -46,6 +46,8 @@
         <activity android:name=".activity_notes"/>
         <activity android:name=".activity_quizoes"/>
         <activity android:name=".activity_test"/>
+        <activity android:name=".tutor_signup"/>
+        <activity android:name=".signup_option"/>
     </application>
 
 </manifest>

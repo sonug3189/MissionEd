@@ -4,22 +4,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
-    <Button
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Chapter name"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:textColor="@color/colorPrimaryDark"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"/>
+    <ImageView
+        android:src="@drawable/notes"
         android:id="@+id/notes"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Notes" />
+        android:layout_height="150dp" />
 
-    <Button
+    <ImageView
         android:id="@+id/quizoes"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Quizoes" />
+        android:layout_height="150dp"
+        android:src="@drawable/questions" />
 
-    <Button
+    <ImageView
         android:id="@+id/test"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Test" />
+        android:layout_height="150dp"
+        android:src="@drawable/solution" />
 </LinearLayout>

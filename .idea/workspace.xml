@@ -10,7 +10,78 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da15e852-230c-4270-a298-587bcbd10990" name="Default Changelist" comment="" />
+    <list default="true" id="da15e852-230c-4270-a298-587bcbd10990" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/paymentFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/signup_option.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/tutor_signup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/utility/StudentAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/chaptersbutton.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/chemistryupward.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/notes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/questions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/solution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_payment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/signup_option.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/tutor_signup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_17_2_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_api_17_2_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_base_17_2_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_impl_17_2_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_sdk_17_2_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_sdk_api_17_2_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_17_2_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_20_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/CreateAccountActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/CreateAccountActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/GPayPaymentFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/GPayPaymentFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/HomeScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/PaytmPaymentFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/PaytmPaymentFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/activity_chapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/activity_chapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/forgot_password.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/forgot_password.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/premium_fragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/premium_fragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/select_grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/select_grade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_check_box.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_check_box.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chapter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chapter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_google_pay.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_google_pay.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_select_grade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_select_grade.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/forgot_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/forgot_password.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_g_pay_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_g_pay_payment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_paytm_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_paytm_payment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_premium.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_premium.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/physics_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/physics_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-round/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-round/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,9 +138,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MessManager" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -205,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590887323857</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Resolved and implemented Login and SignUp actions using Firebase-Firestore and tested fully">
+      <created>1591226773230</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591226773231</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,9 +309,15 @@
     <MESSAGE value="Replaced Placeholder text with real-time inputs by user" />
     <MESSAGE value="working on the Fragments issue" />
     <MESSAGE value="Fixed the RecyclerViewAdapter issue and created layouts linking each chapter subjectwise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed the RecyclerViewAdapter issue and created layouts linking each chapter subjectwise" />
+    <MESSAGE value="Resolved and implemented Login and SignUp actions using Firebase-Firestore and tested fully" />
+    <MESSAGE value="Payment card are working." />
+    <option name="LAST_COMMIT_MESSAGE" value="Payment card are working." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="496" y="56" key="#app" timestamp="1591352067041">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="496" y="56" key="#app/0.0.1536.824@0.0.1536.824" timestamp="1591352067041" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1591024607144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -246,34 +331,32 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1005" y="275" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591025454208" />
-    <state x="627" y="225" key="AndroidCreateXmlResourceDialog" timestamp="1590885902156">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="826" y="315" width="302" height="377" key="AndroidCreateXmlResourceDialog" timestamp="1591340815422">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="627" y="225" key="AndroidCreateXmlResourceDialog/0.0.1536.824@0.0.1536.824" timestamp="1590885902156" />
-    <state x="411" y="6" key="CommitChangelistDialog2" timestamp="1590887319037">
+    <state x="826" y="315" width="302" height="377" key="AndroidCreateXmlResourceDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1591340815422" />
+    <state x="215" y="35" width="987" height="854" key="CommitChangelistDialog2" timestamp="1591346138715">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="119" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591226760755" />
+    <state x="215" y="35" width="987" height="854" key="CommitChangelistDialog2/72.27.1848.1053@72.27.1848.1053" timestamp="1591346138715" />
+    <state width="1476" height="208" key="GridCell.Tab.0.bottom" timestamp="1591353993838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="411" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590887319037" />
-    <state x="626" y="306" key="Github.ShareDialog" timestamp="1591089425893">
+    <state width="1476" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591353993838" />
+    <state width="1476" height="208" key="GridCell.Tab.0.center" timestamp="1591353993838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="626" y="306" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1591089425893" />
-    <state width="1476" height="209" key="GridCell.Tab.0.bottom" timestamp="1591089148220">
+    <state width="1476" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591353993838" />
+    <state width="1476" height="208" key="GridCell.Tab.0.left" timestamp="1591353993838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1476" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591089148220" />
-    <state width="1476" height="209" key="GridCell.Tab.0.center" timestamp="1591089148220">
+    <state width="1476" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591353993838" />
+    <state width="1476" height="208" key="GridCell.Tab.0.right" timestamp="1591353993838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1476" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591089148220" />
-    <state width="1476" height="209" key="GridCell.Tab.0.left" timestamp="1591089148219">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1476" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591089148219" />
-    <state width="1476" height="209" key="GridCell.Tab.0.right" timestamp="1591089148220">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1476" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591089148220" />
+    <state width="1476" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591353993838" />
     <state x="349" y="155" key="IDE.errors.dialog" timestamp="1590882544424">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -282,19 +365,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="65" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1590887434943" />
-    <state x="481" y="128" key="MultipleFileMergeDialog" timestamp="1590887454723">
+    <state x="481" y="128" key="MultipleFileMergeDialog" timestamp="1591226814460">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="481" y="128" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1590887454723" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1590887327157">
+    <state x="481" y="128" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1591226814460" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1591226777878">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1590887327157" />
-    <state x="525" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1591088885030">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591226777878" />
+    <state x="525" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1591352123900">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="525" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591088885030" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591021976672" />
+    <state x="525" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591352123900" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591265112153" />
     <state x="254" y="0" width="1264" height="808" key="dock-window-1" timestamp="1590882207759">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -304,13 +387,17 @@
     </state>
     <state x="562" y="82" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1590875520640" />
     <state x="702" y="148" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590849942461" />
+    <state x="759" y="189" key="run.anything.popup" timestamp="1591223015204">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="759" y="189" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1591223015204" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/missionedappdev/missoned/MainActivity.java</url>
-          <line>12</line>
+          <line>35</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

@@ -23,7 +23,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:navGraph="@navigation/mobile_navigation" />
 
-        <ImageView
+        <View
             android:id="@+id/imageView4"
             android:layout_width="wrap_content"
             android:layout_height="250dp"
@@ -31,7 +31,7 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/upward" />
+            android:background="@drawable/upward" />
 
         <TextView
             android:id="@+id/textView5"

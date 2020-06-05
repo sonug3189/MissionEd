@@ -8,4 +8,6 @@
     <color name="circleborder">#30FFFFFF</color>
     <color name="gradstart">#63C9FF</color>
     <color name="gradend">#67EFC8</color>
+    <color name="golden">#ffd700</color>
+
 </resources>
